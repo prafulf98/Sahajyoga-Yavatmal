@@ -10,7 +10,7 @@ const distComitee = [
     contactNo: <a href="12345678900">12345678900</a>
   },
   {
-    name: 'Sau. Rushikesh Koychade',
+    name: 'Rushikesh Koychade',
     designation: 'District Yuvashakti co-ordinator',
     contactNo: <a href="12345678900">12345678900</a>
   },
