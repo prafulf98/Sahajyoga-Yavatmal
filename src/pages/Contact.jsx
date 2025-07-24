@@ -6,12 +6,52 @@ import { ContactContainer, SocialMediaContainer } from '../components';
 const distComitee = [
   {
     name: 'Sau. Yamini Wandile',
-    designation: 'District co-ordinator',
-    contactNo: <a href="12345678900">12345678900</a>
+    designation: 'District Co-ordinator',
+    contactNo: <a href="12345678900">9404699286</a>
   },
   {
     name: 'Rushikesh Koychade',
-    designation: 'District Yuvashakti co-ordinator',
+    designation: 'District YuvaShakti Co-ordinator',
+    contactNo: <a href="12345678900">12345678900</a>
+  },
+  {
+    name: 'Ku. Vaishnavi Kapile',
+    designation: 'District YuvaShakti co-ordinator (Girls)',
+    contactNo: <a href="12345678900">12345678900</a>
+  },
+  {
+    name: 'Shri. Gulab Rathod',
+    designation: 'District Treasurer & Accountant',
+    contactNo: <a href="12345678900">12345678900</a>
+  },
+  {
+    name: 'Shri. Ganesh Zade',
+    designation: 'Head of NSPT ',
+    contactNo: <a href="12345678900">12345678900</a>
+  },
+  {
+    name: 'Shri. Rahul Kukade',
+    designation: 'District Agriculture Co-ordinator',
+    contactNo: <a href="12345678900">12345678900</a>
+  },
+  {
+    name: 'Sau. VandanaTai Gedam',
+    designation: 'District BalShakti Co-ordinator',
+    contactNo: <a href="12345678900">12345678900</a>
+  },
+  {
+    name: 'Sau. RajaniTai Kale',
+    designation: 'District Puja Co-ordinator',
+    contactNo: <a href="12345678900">12345678900</a>
+  },
+  {
+    name: 'Smt. VaishaliTai Pisalkar',
+    designation: 'District Prachar-Prasar Co-ordinator',
+    contactNo: <a href="12345678900">12345678900</a>
+  },
+  {
+    name: 'Sau. VandanaTai Jaiswal',
+    designation: 'District Sahaj-Merriage Co-ordinator',
     contactNo: <a href="12345678900">12345678900</a>
   },
 ]
