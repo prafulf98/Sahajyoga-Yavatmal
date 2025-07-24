@@ -12,7 +12,7 @@ const distComitee = [
   {
     name: 'Rushikesh Koychade',
     designation: 'District YuvaShakti Co-ordinator',
-    contactNo: <a href="12345678900">12345678900</a>
+    contactNo: <a href="12345678900">7057856640</a>
   },
   {
     name: 'Ku. Vaishnavi Kapile',
