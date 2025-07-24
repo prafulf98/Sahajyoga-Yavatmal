@@ -85,6 +85,35 @@ const centerList = [
             }
         ]
     },
+    {
+        taluka: 'Pusad',
+        information: [
+            {
+                centerName: "Pusad",
+                centerLocation: "google location",
+                centerCityVillage: "Kharda",
+                centerTaluka: "Pusad",
+                centerDist: "YTL",
+                centerDay: "Sunday",
+                centerTime: "7 AM",
+                centerCoOrdinator: "Sunil Kaka",
+                centerCoMobileNo: "12345678900",
+                centerAddress: "Qwertyu Ioas Dfghjkl Zxcvbnjm"
+            },
+            {
+                centerName: "Pusad 2",
+                centerLocation: "google location",
+                centerCityVillage: "Kharda",
+                centerTaluka: "Pusad",
+                centerDist: "YTL",
+                centerDay: "Sunday",
+                centerTime: "7 AM",
+                centerCoOrdinator: "Sunil Kaka",
+                centerCoMobileNo: "12345678900",
+                centerAddress: "Qwertyu Ioas Dfghjkl Zxcvbnjm"
+            }
+        ]
+    },
 ]
 
 export default centerList
