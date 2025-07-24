@@ -7,52 +7,52 @@ const distComitee = [
   {
     name: 'Sau. Yamini Wandile',
     designation: 'District Co-ordinator',
-    contactNo: <a target="_blank" href="12345678900">9404699286</a>
+    contactNo: <a target="_blank" href="9404699286">9404699286</a>
   },
   {
     name: 'Rushikesh Koychade',
     designation: 'District YuvaShakti Co-ordinator',
-    contactNo: <a target="_blank" href="12345678900">7057856640</a>
+    contactNo: <a target="_blank" href="7057856640">7057856640</a>
   },
   {
     name: 'Ku. Vaishnavi Kapile',
     designation: 'District YuvaShakti co-ordinator (Girls)',
-    contactNo: <a target="_blank" href="12345678900">12345678900</a>
+    contactNo: <a target="_blank" href="9970646041">9970646041</a>
   },
   {
     name: 'Shri. Gulab Rathod',
     designation: 'District Treasurer & Accountant',
-    contactNo: <a target="_blank" href="12345678900">12345678900</a>
+    contactNo: <a target="_blank" href="9850315938">9850315938</a>
   },
   {
     name: 'Shri. Ganesh Zade',
     designation: 'Head of NSPT ',
-    contactNo: <a target="_blank" href="12345678900">12345678900</a>
+    contactNo: <a target="_blank" href="9763681091">9763681091</a>
   },
   {
     name: 'Shri. Rahul Kukade',
     designation: 'District Agriculture Co-ordinator',
-    contactNo: <a target="_blank" href="12345678900">12345678900</a>
+    contactNo: <a target="_blank" href="9637201508">9637201508</a>
   },
   {
     name: 'Sau. VandanaTai Gedam',
     designation: 'District BalShakti Co-ordinator',
-    contactNo: <a target="_blank" href="12345678900">12345678900</a>
+    contactNo: <a target="_blank" href="7798160135">7798160135</a>
   },
   {
     name: 'Sau. RajaniTai Kale',
     designation: 'District Puja Co-ordinator',
-    contactNo: <a target="_blank" href="12345678900">12345678900</a>
+    contactNo: <a target="_blank" href="7057058800">7057058800</a>
   },
   {
     name: 'Smt. VaishaliTai Pisalkar',
     designation: 'District Prachar-Prasar Co-ordinator',
-    contactNo: <a target="_blank" href="12345678900">12345678900</a>
+    contactNo: <a target="_blank" href="7588779010">7588779010</a>
   },
   {
     name: 'Sau. VandanaTai Jaiswal',
     designation: 'District Sahaj-Merriage Co-ordinator',
-    contactNo: <a target="_blank" href="12345678900">12345678900</a>
+    contactNo: <a target="_blank" href="9922479907">9922479907</a>
   },
 ]
 
