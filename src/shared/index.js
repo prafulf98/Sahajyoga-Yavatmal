@@ -6,7 +6,7 @@ import KeyValueList from './KeyValueList';
 import Accordian from './Accordian';
 import Table from './Table';
 import Button from './Button';
-
+import Card from './Card';
 
 export {
     Paragraph,
@@ -16,5 +16,6 @@ export {
     KeyValueList,
     Accordian,
     Table,
-    Button
+    Button,
+    Card
 }

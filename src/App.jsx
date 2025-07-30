@@ -1,7 +1,7 @@
 import { Route, Routes } from 'react-router-dom'
 import './App.css'
 import { Footer, Header, PageHeader } from './components'
-import { Home, AboutShreeMataji, AboutSy, Center, AboutSyYtl, Contact, Donation, Login, Events, PracharPrasar, CenterInformation } from './pages'
+import { Home, AboutShreeMataji, AboutSy, Center, AboutSyYtl, Contact, Donation, Login, Events, PracharPrasar, CenterInformation, EventDetails } from './pages'
 import Layout from './Layout'
 import ElementLayout from './ElementLayout';
 
@@ -26,6 +26,7 @@ function App() {
               <Route path="donation" element={<Donation />} />
               <Route path="login" element={<Login />} />
               <Route path="events" element={<Events />} />
+              <Route path="events/:id" element={<EventDetails />} />
               <Route path="prachar-prasar" element={<PracharPrasar />} />
             </Route>
           </Route>

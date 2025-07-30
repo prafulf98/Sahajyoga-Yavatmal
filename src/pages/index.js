@@ -9,8 +9,22 @@ import Login from './Login'
 import Events from './Events'
 import PracharPrasar from './PracharPrasar'
 import CenterInformation from './CenterInformation'
+import EventDetails from './EventDetails';
 
 
 
 
-export { Home, AboutShreeMataji, AboutSy, Center, AboutSyYtl, Contact, Donation, Login, Events, PracharPrasar, CenterInformation }
+export {
+    Home,
+    AboutShreeMataji,
+    AboutSy,
+    Center,
+    AboutSyYtl,
+    Contact,
+    Donation,
+    Login,
+    Events,
+    PracharPrasar,
+    CenterInformation,
+    EventDetails
+}
