@@ -1,11 +1,16 @@
 import shreeMatajiInfo from '../json/shreeMatajiInformation';
 import { useLanguage } from '../context/languageContext';
 import { InfoImage, Paragraph, Title } from '../shared'
+import { useEffect } from 'react';
 
 const AboutShreeMataji = () => {
   const { language } = useLanguage();
   const info = language === 'mar' ? shreeMatajiInfo.shreeMatajiInfoMar : shreeMatajiInfo.shreeMatajiInfoEng;
 
+  useEffect(() => {
+    window.document.title = 'Shree Mataji - Yavatmal Sahajyoga'
+  }, [])
+  
   return (
     <>
       <section className="p-2 md:p-4 lg:p-8 md:max-w-[1000px] my-20 mx-auto w-full border border-pink-50 shadow-2xl bg-pink-50" id={document.title}>
