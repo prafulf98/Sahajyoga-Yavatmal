@@ -6,7 +6,7 @@ const Table = ({ tHead, tBody, customStyle }) => {
 
     return (
         <>
-            <div className={`${customStyle} flex flex-col max-w-[95%]  border border-gray-400`}>
+            <div className={`${customStyle} flex flex-col max-w-full bg-white border border-gray-400`}>
                 <div className="-m-1.5 overflow-x-auto">
                     <div className="p-1.5 min-w-full inline-block align-middle">
                         <div className="overflow-hidden">
