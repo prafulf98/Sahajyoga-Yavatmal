@@ -14,11 +14,11 @@ const Center = () => {
   useEffect(() => {
     document.title = "Our centers - Sahajyoga Yavatmal";
   }, [])
-  
+
 
   return (
     <>
-      <section className="py-4 md:py-8 max-w-[1000px] my-20 mx-auto w-full border border-pink-50 shadow-2xl" id={document.title}>
+      <div id={document.title}>
         <Title customStyle={'text-center justify-center'} titleName={'Center list and details'} />
         <div className="w-full mx-auto">
 
@@ -37,7 +37,7 @@ const Center = () => {
             <CenterInformation />
           </div>
         </div>
-      </section>
+      </div>
     </>
   )
 }

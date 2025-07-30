@@ -1,15 +1,20 @@
 import { useLanguage } from '../context/languageContext'
 import { InfoImage, Paragraph, Title } from "../shared";
 import syYtlInfo from '../json/syYavatmalInformation'
-
+import { useEffect } from 'react';
 
 const AboutSyYtl = () => {
   const { language } = useLanguage();
   const info = language === 'mar' ? syYtlInfo.syYtlInfoMar : syYtlInfo.syYtlInfoEng;
 
+  useEffect(() => {
+    window.document.title = 'About Yavatmal Sahajyoga'
+  }, [])
+
   return (
     <>
-      <section className="p-4 md:p-8 max-w-[1000px] my-20 mx-auto w-full border border-pink-50 shadow-2xl bg-pink-50" id={document.title}>
+      <div
+        id={document.title}>
         {info.map((item, i) => (
           <div
             key={i}
@@ -28,7 +33,7 @@ const AboutSyYtl = () => {
           </div>
         ))}
 
-      </section>
+      </div>
     </>
   );
 };

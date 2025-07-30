@@ -10,7 +10,7 @@ const Donation = () => {
 
   return (
     <>
-      <section className="p-6 md:p-24 max-w-[1000px] my-20 mx-auto w-full border border-pink-50 shadow-2xl">
+      <div id={document.title}>
         <Title customStyle={'text-center'} titleName={'Bank Details For Donation From Indian Citizens'} devider={true} />
 
         {/* Account details section  */}
@@ -48,7 +48,7 @@ const Donation = () => {
           <Paragraph customStyle={'!text-base !text-black'} paragraphItem={'- Kindly send us the following information via email after sending donations to the designated account'} />
           <Paragraph customStyle={'!text-base !text-black'} paragraphItem={'- UTR Number /Cheque Number Bank Name Donor’s Name, PAN CARD and Postal Address'} />
         </div>
-      </section>
+      </div>
     </>
   )
 }

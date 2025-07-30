@@ -65,7 +65,7 @@ const Contact = () => {
 
   return (
     <>
-      <section className="p-4 md:p-8 max-w-[1000px] my-20 mx-auto w-full border border-pink-50 shadow-2xl" id={document.title}>
+      <div id={document.title}>
         <Title customStyle={''} titleName={'Note'} devider={true} />
 
         {/* note sectin  */}
@@ -106,8 +106,7 @@ const Contact = () => {
             referrerPolicy="no-referrer-when-downgrade">
           </iframe>
         </div>
-
-      </section>
+      </div>
     </>
   )
 }

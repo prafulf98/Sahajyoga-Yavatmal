@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { InfoImage, Paragraph, Title } from '../shared';
 import { useLanguage } from '../context/languageContext';
 import syInformation from '../json/syInformation';
@@ -8,9 +8,14 @@ const AboutSy = () => {
   const { language } = useLanguage();
   const info = language === 'mar' ? syInformation.sahajYogaInfoMar : syInformation.sahajYogaInfoEng;
 
+  useEffect(() => {
+    window.document.title = 'About Sahajyoga'
+  }, [])
+
   return (
     <>
-      <section className="p-4 md:p-8 max-w-[1000px] my-20 mx-auto w-full border border-pink-50 shadow-2xl bg-pink-50" id={document.title}>
+
+      <div id={document.title}>
         {info.map((item, i) => (
           <div
             key={i}
@@ -29,7 +34,7 @@ const AboutSy = () => {
           </div>
         ))}
 
-      </section>
+      </div>
     </>
   );
 };
