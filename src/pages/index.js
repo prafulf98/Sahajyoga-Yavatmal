@@ -10,9 +10,7 @@ import Events from './Events'
 import PracharPrasar from './PracharPrasar'
 import CenterInformation from './CenterInformation'
 import EventDetails from './EventDetails';
-
-
-
+import PracharPrasarDetails from './PracharPrasarDetails';
 
 export {
     Home,
@@ -26,5 +24,6 @@ export {
     Events,
     PracharPrasar,
     CenterInformation,
-    EventDetails
+    EventDetails,
+    PracharPrasarDetails
 }

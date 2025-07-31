@@ -22,6 +22,8 @@ const PageHeader = () => {
     return null;
   } else if (pathName.startsWith('/events/')) {
     pageTitle = 'Sahajyoga Events';
+  }else if (pathName.startsWith('/prachar-prasar/')) {
+    pageTitle = 'Sahajyoga Prachar Prasar';
   } else {
     pageTitle = pathTitleMap[pathName] || pathName;
   }
