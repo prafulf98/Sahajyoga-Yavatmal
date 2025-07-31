@@ -4,7 +4,7 @@ const Card = ({ cardData, handleOpenCardDetails }) => {
 
     return (
         <>
-            <article className="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-8 pt-48 max-w-md mx-auto mt-10 min-w-sm w-full cursor-pointer h-full"
+            <article className="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-8 pt-48 max-w-md mx-auto mt-10 min-w-full lg:min-w-sm w-full cursor-pointer h-full"
                 onClick={handleOpenCardDetails}
             >
                 <img src={cardData.cardImg} alt={cardData.title} className="absolute inset-0 h-full w-full object-cover" />

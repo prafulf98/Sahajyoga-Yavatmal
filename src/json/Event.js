@@ -3,24 +3,24 @@ const eventData = [
     id: 1,
     title: 'Shri Mataji Birthday Celebration',
     subTitle: 'A beautiful gathering at Yavatmal Ashram.',
-    cardImg: 'https://via.placeholder.com/600x300?text=Event1+Image1',
+    cardImg: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGF4TmXIBsnlSrYDNjFRhqqngrBXiCcZWvmQ&s',
     images: [
-      'https://via.placeholder.com/600x300?text=Event1+Image1',
-      'https://via.placeholder.com/600x300?text=Event1+Image2',
-      'https://via.placeholder.com/600x300?text=Event1+Image3',
+      'https://i.ytimg.com/vi/fS9blNJ9a-g/maxresdefault.jpg',
+      'https://i.ytimg.com/vi/fS9blNJ9a-g/maxresdefault.jpg',
+      'https://i.ytimg.com/vi/fS9blNJ9a-g/maxresdefault.jpg',
     ],
-    youtubeLink: 'https://www.youtube.com/embed/VIDEO_ID_1',
+    youtubeLink: 'https://www.youtube.com/embed/ClNeuaB4pUA?si=4URx2e1A0QKDRBJN',
   },
   {
     id: 2,
     title: 'Public Program',
     subTitle: 'Spreading Sahaja Yoga in nearby villages.',
-    cardImg: 'https://via.placeholder.com/600x300?text=Event1+Image1',
+    cardImg: 'https://i1.sndcdn.com/artworks-000110544401-319yyj-t500x500.jpg ',
     images: [
-      'https://via.placeholder.com/600x300?text=Event2+Image1',
-      'https://via.placeholder.com/600x300?text=Event2+Image2',
+      'https://sahajayogavic.com/wp-content/uploads/sites/33/2023/03/facebook_1677714919815_7036846399042496241.jpg',
+      'https://sahajayogavic.com/wp-content/uploads/sites/33/2023/03/facebook_1677714919815_7036846399042496241.jpg',
     ],
-    youtubeLink: 'https://www.youtube.com/embed/VIDEO_ID_2',
+    youtubeLink: 'https://www.youtube.com/embed/hcSJrufqdq0?si=sjTkSf-7u9Du_Nnw',
   }
 ];
 
