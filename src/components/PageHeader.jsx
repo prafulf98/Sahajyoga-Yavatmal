@@ -20,6 +20,8 @@ const PageHeader = () => {
 
   if (pathName === '/') {
     return null;
+  }else if (pathName.startsWith('/centers/')) {
+    pageTitle = 'Our Centers';
   } else if (pathName.startsWith('/events/')) {
     pageTitle = 'Sahajyoga Events';
   }else if (pathName.startsWith('/prachar-prasar/')) {
