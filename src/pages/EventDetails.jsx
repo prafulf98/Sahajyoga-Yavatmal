@@ -16,9 +16,11 @@ const EventDetails = () => {
     <>
       <IoMdArrowRoundBack size={24} className='text-secondary cursor-pointer' onClick={() => navigate('/events')} />
       <div className="px-4 pb-8 max-w-6xl mx-auto">
-        <div className="mb-12 p-4 bg-transparent">
-          <Title customStyle={'mt-8 w-full'} titleName={event.title} devider={true} />
-          <SubTitle subTitleName={event.subTitle} customStyle={'!text-start text-secondary mb-6'} />
+        <div className="mb-4 md:mb-12 bg-transparent">
+          <div className="w-full">
+            <Title customStyle={'mt-8 w-full'} titleName={event.title} devider={true} />
+            <SubTitle subTitleName={event.subTitle} customStyle={'!text-start text-secondary mb-6'} />
+          </div>
 
           {/* Image Grid */}
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mb-6">
