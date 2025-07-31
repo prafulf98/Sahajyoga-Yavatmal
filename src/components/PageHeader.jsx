@@ -27,7 +27,7 @@ const PageHeader = () => {
   }
 
   return (
-    <div className="h-32 w-full flex items-center justify-center bg-gradient-to-r from-pink-900 to-pink-500 drop-shadow-2xl !z-0">
+    <div className="h-20 md:h-24 lg:h-32 w-full flex items-center justify-center bg-gradient-to-r from-pink-900 to-pink-500 drop-shadow-2xl !z-0">
       <div className="max-w-7xl w-full px-4">
         <h1 className="text-white text-3xl font-semibold shadow-2xl capitalize">
           {pageTitle}

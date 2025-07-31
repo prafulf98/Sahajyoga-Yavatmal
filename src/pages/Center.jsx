@@ -18,7 +18,7 @@ const Center = () => {
 
   return (
     <>
-      <div id={document.title}>
+      <div id={document.title} className='p-4'>
         <Title customStyle={'text-center justify-center'} titleName={'Center list and details'} />
         <div className="w-full mx-auto">
 

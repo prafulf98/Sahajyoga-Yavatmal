@@ -10,12 +10,12 @@ const Donation = () => {
 
   return (
     <>
-      <div id={document.title}>
+      <div id={document.title} className='p-4'>
         <Title customStyle={'text-center'} titleName={'Bank Details For Donation From Indian Citizens'} devider={true} />
 
         {/* Account details section  */}
         <div className='mt-6'>
-          <SubTitle customStyle={'text-secondary font-semibold !text-xl'} subTitleName={'Account Details'} />
+          <SubTitle customStyle={'text-secondary font-semibold !text-xl px-2'} subTitleName={'Account Details'} />
           <div className='gap-2 mt-4 flex flex-col'>
             {
               donationItem.accountDetails.map((item, i) =>
