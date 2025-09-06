@@ -245,7 +245,19 @@ const centerList = [
                 centerCoOrdinator: "Sau. Pranitatai Irwe",
                 centerCoMobileNo: "8999558107",
                 centerAddress: "Annabhau Sathe  Hall, Shikshak Colony, Digras Bypass Road, Darwha."
-            }
+            },
+            {
+                centerCityVillage: 'Mahagaon',
+                centerName: 'Old Bus Stop',
+                centerDist: 'Yavatmal',
+                centerAddress: "Shri. Tajane's Home, At. Po. Mahagaon Kasaba. Tq. Darwha.",
+                centerTime: '6:30 PM',
+                centerDay: 'Friday',
+                centerCoOrdinator: 'Shri. Sanjay Tajne, Shri. Bhimrao Darekar',
+                centerCoMobileNo: '8975111183, 8888629231',
+                centerLocation: '',
+                centerTaluka: 'Darwha'
+            },
         ]
     },
     {
@@ -571,18 +583,7 @@ const centerList = [
     {
         taluka: 'Mahagaon',
         information: [
-            {
-                centerCityVillage: 'Mahagaon',
-                centerName: 'Old Bus Stop',
-                centerDist: 'Yavatmal',
-                centerAddress: "Shri. Tajane's Home, At. Po. Mahagaon Kasaba. Tq. Darwha.",
-                centerTime: '6:30 PM',
-                centerDay: 'Friday',
-                centerCoOrdinator: 'Shri. Sanjay Tajne, Shri. Bhimrao Darekar',
-                centerCoMobileNo: '8975111183, 8888629231',
-                centerLocation: '',
-                centerTaluka: 'Mahagaon'
-            },
+            
         ]
     },
     {
