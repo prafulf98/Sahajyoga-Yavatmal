@@ -5,12 +5,12 @@ const contactItem = [
     {
         icon: <IoCall size={25} />,
         head: "Contact No. :",
-        info: "123456789"
+        info: "9404699286"
     },
     {
         icon: <MdOutlineEmail size={25} />,
         head: "Email Id :",
-        info: "sahajyogayavatmal@gamil.com"
+        info: "sahajayogayavatmal97@gmail.com"
     }
 ];
 
@@ -20,7 +20,7 @@ const ContactContainer = ({mainContainerStyle, customStyle}) => {
             {
                 contactItem.map((item, i) =>
                     <div className={`flex items-center justify-between w-fit gap-4 ${mainContainerStyle}`} key={i}>
-                        <div>{item.icon}</div>
+                        <div className='text-secondary'>{item.icon}</div>
                         <div className={customStyle}>
                             <h6 className="text-sm">{item.head}</h6>
                             <a href={item.info} className="text-sm font-semibold">{item.info}</a>

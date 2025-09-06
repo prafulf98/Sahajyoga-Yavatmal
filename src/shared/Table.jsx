@@ -24,16 +24,16 @@ const Table = ({ tHead, tBody, customStyle }) => {
                                 <tbody className="divide-y divide-gray-200">
                                     {tBody.map((bodyItem, i) =>
                                         <tr key={i}>
-                                            <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-800">
+                                            <td className="px-6 py-4 text-sm font-medium text-gray-800 text-wrap">
                                                 {i + 1}
                                             </td>
-                                            <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-800">
+                                            <td className="px-6 py-4 text-sm text-gray-800 text-wrap">
                                                 {bodyItem.name}
                                             </td>
-                                            <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-800">
+                                            <td className="px-6 py-4 text-sm text-gray-800 text-wrap">
                                                 {bodyItem.designation}
                                             </td>
-                                            <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-800">
+                                            <td className="px-6 py-4 text-sm text-gray-800 text-wrap">
                                                 {bodyItem.contactNo}
                                             </td>
                                         </tr>

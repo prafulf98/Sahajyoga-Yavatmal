@@ -81,7 +81,8 @@ const Contact = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 mt-8 gap-4 md:gap-8">
           <div id="contact-add-section">
             <Title customStyle={'md:mt-4'} titleName={'Address'} devider={true} />
-            <Paragraph customStyle={'me-20 px-2'} paragraphItem={contactItem.Address.Address}></Paragraph>
+            <Paragraph customStyle={'px-2'} paragraphItem={contactItem.Address.Address} paragraphHead={'Center Address:'}></Paragraph>
+            <Paragraph customStyle={'px-2'} paragraphItem={contactItem.Address.AshramLocation} paragraphHead={'Ashram Address:'}></Paragraph>
           </div>
           <div id="contact-no-email">
             <Title customStyle={'md:mt-4'} titleName={'Contact'} devider={true} />
