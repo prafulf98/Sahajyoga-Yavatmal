@@ -19,7 +19,7 @@ const CenterInformation = () => {
     { label: 'Center Co-ordinator', value: info.centerCoOrdinator },
     { label: 'Contact No.', value: <a href={`tel:${info.centerCoMobileNo}`}>{info.centerCoMobileNo}</a> },
     { label: 'Center Address', value: `${info.centerAddress}, ${info.centerTaluka}, ${info.centerDist}` },
-    { label: 'Center Location', value: <a href={info.centerLocation} target="_blank" rel="noopener noreferrer" className='text-blue-600'>{info.centerLocation}</a> },
+    { label: 'Center Location', value: <a href={info.centerLocation} target="_blank" rel="noopener noreferrer" className='text-blue-600 break-words'>{info.centerLocation}</a> },
   ];
 
   return (

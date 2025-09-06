@@ -4,12 +4,12 @@ const centerList = [
         information: [
             {
                 centerName: "Main Center",
-                centerLocation: "https://maps.app.goo.gl/3fAV1eb5JkZTLuQS6",
+                centerLocation: "https://maps.app.goo.gl/z9i4ygX3mQ2432ib8",
                 centerCityVillage: "Yavatmal",
                 centerTaluka: "Yavatmal",
                 centerDist: "Yavatmal",
                 centerDay: "Sunday",
-                centerTime: "05:00 PM",
+                centerTime: "9:00 AM",
                 centerCoOrdinator: "Sau. YaminiTai Wandile",
                 centerCoMobileNo: "9404699286",
                 centerAddress: "Loknayak Bapuji Aney Mahila Mahavidyalaya, Datta chowk",
