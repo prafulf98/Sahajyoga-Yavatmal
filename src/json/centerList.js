@@ -580,12 +580,12 @@ const centerList = [
             }
         ]
     },
-    {
-        taluka: 'Mahagaon',
-        information: [
+    // {
+    //     taluka: 'Mahagaon',
+    //     information: [
             
-        ]
-    },
+    //     ]
+    // },
     {
         taluka: 'Umarkhed',
         information: [

@@ -1,4 +1,4 @@
-import { useNavigate } from 'react-router-dom'
+import { useNavigate, useParams } from 'react-router-dom'
 import centerList from '../json/centerList'
 import { SubTitle, Title } from '../shared'
 import CenterInformation from './CenterInformation'
@@ -6,6 +6,7 @@ import { useEffect } from 'react'
 
 const Center = () => {
   const navigate = useNavigate()
+  const { taluka: activeTaluka } = useParams()
 
   const handleClick = (taluka) => {
     navigate(`/centers/${taluka}`)
@@ -27,7 +28,7 @@ const Center = () => {
               <button
                 key={i}
                 onClick={() => handleClick(item.taluka)}
-                className="mb-4 cursor-pointer text-primary"
+                className={`pb-4 cursor-pointer text-primary ${activeTaluka === item.taluka ? 'border-b-2 border-white' : ''}`}
               >
                 <SubTitle subTitleName={item.taluka} customStyle={'text-primary font-semibold '} />
               </button>
