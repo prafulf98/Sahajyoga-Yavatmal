@@ -17,7 +17,7 @@ const contactItem = [
 const ContactContainer = ({ mainContainerStyle, customStyle }) => {
     return (
         <>
-            <section id='email/phoneSection'>
+            {/* <section id='email/phoneSection'> */}
                 {
                     contactItem.map((item, i) =>
                         <div className={`flex items-center justify-between w-fit gap-4 ${mainContainerStyle}`} key={i}>
@@ -29,7 +29,7 @@ const ContactContainer = ({ mainContainerStyle, customStyle }) => {
                         </div>
                     )
                 }
-            </section>
+            {/* </section> */}
         </>
     )
 }
