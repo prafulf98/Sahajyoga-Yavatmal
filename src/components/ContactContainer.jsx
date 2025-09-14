@@ -14,20 +14,22 @@ const contactItem = [
     }
 ];
 
-const ContactContainer = ({mainContainerStyle, customStyle}) => {
+const ContactContainer = ({ mainContainerStyle, customStyle }) => {
     return (
         <>
-            {
-                contactItem.map((item, i) =>
-                    <div className={`flex items-center justify-between w-fit gap-4 ${mainContainerStyle}`} key={i}>
-                        <div className='text-secondary'>{item.icon}</div>
-                        <div className={customStyle}>
-                            <h6 className="text-sm">{item.head}</h6>
-                            <a href={item.info} className="text-sm font-semibold">{item.info}</a>
+            <section id='email/phoneSection'>
+                {
+                    contactItem.map((item, i) =>
+                        <div className={`flex items-center justify-between w-fit gap-4 ${mainContainerStyle}`} key={i}>
+                            <div className='text-secondary'>{item.icon}</div>
+                            <div className={customStyle}>
+                                <h6 className="text-sm">{item.head}</h6>
+                                <a target='_blank' href={item.info} className="text-sm font-semibold">{item.info}</a>
+                            </div>
                         </div>
-                    </div>
-                )
-            }
+                    )
+                }
+            </section>
         </>
     )
 }

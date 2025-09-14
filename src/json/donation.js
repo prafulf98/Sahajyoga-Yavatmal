@@ -3,19 +3,19 @@ const donationItem =
   accountDetails: [
     {
       label: "Account Name",
-      value: "DEMO ACCOUNT OF YTL SY"
+      value: "H.H. Shree Mataji Nirmala Devi Sahajayoga Trust Yavatmal"
     },
     {
       label: "Bank",
-      value: "DEMO BANK OF INDIA, DEMO Branch, Yavatmal 445001"
+      value: "State Bank Of India Datta Chowk Shakha, Yavatmal 445001"
     },
     {
       label: "Savings Account No",
-      value: "0000000000000"
+      value: "35120804121"
     },
     {
       label: "IFSC Code",
-      value: "SBIN2345670"
+      value: "SBIN0006332"
     }
   ],
   contactPerson: [
@@ -25,11 +25,11 @@ const donationItem =
     },
     {
       label: "Contact Number",
-      value: "1234567890"
+      value: "+91 70578 56640"
     },
     {
       label: "Email",
-      value: "demosyytl@gmail.com"
+      value: "sahajayogayavatmal97@gmail.com"
     },
     {
       label: "Donation Info Required",
@@ -40,3 +40,11 @@ const donationItem =
 
 
 export default donationItem;
+
+// Bank Name : State Bank Of India Datta Chowk Shakha, Yavatmal 445001
+
+// Account Name: H.H Shree Mataji Nirmala Devi Sahajayoga Trust Yavatmal 
+
+// Account No. 35120804121
+
+// IFSC code: SBIN0006332
